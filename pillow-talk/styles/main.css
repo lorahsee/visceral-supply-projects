@@ -1,1 +1,76 @@
-html,body{height:100%;margin:0;padding:0;width:100%}body{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}#scroller{height:100%;left:0;position:absolute;top:0;width:100%;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.environment{height:540px;-webkit-perspective:500px;perspective:500px;-webkit-perspective-origin:center 450px;perspective-origin:center 450px;left:50%;margin:-270px 0 0 -495px;position:absolute;top:50%;width:990px}.content{height:100%;width:100%;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.content section{height:100%;position:absolute;width:100%}.content section#l1{background:url("../images/invite-1.png") 0 0 no-repeat;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.content section#l2{background:url("../images/invite-2.png") 0 0 no-repeat;-webkit-transform:translate3d(0,0,-1000px);transform:translate3d(0,0,-1000px)}.content section#l3{background:url("../images/invite-3.png") 0 0 no-repeat;-webkit-transform:translate3d(0,0,-2000px);transform:translate3d(0,0,-2000px)}.content section#l3 .happy{background:url("../images/face.gif") 0 0 no-repeat;height:190px;left:50%;margin:-20px 0 0 -95px;position:absolute;top:50%;width:190px}
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+#scroller {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}
+.environment {
+    height: 540px;
+    -webkit-perspective: 500px;
+    perspective: 500px;
+    -webkit-perspective-origin: center 450px;
+    perspective-origin: center 450px;
+    left: 50%;
+    margin: -270px 0 0 -495px;
+    position: absolute;
+    top: 50%;
+    width: 990px
+}
+.content {
+    height: 100%;
+    width: 100%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}
+.content section {
+    height: 100%;
+    position: absolute;
+    width: 100%
+}
+.content section#l1 {
+    background: url("../images/invite-1.png") 0 0 no-repeat;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}
+.content section#l2 {
+    background: url("../images/invite-2.png") 0 0 no-repeat;
+    -webkit-transform: translate3d(0, 0, -1000px);
+    transform: translate3d(0, 0, -1000px)
+}
+.content section#l3 {
+    background: url("../images/invite-3.png") 0 0 no-repeat;
+    -webkit-transform: translate3d(0, 0, -2000px);
+    transform: translate3d(0, 0, -2000px)
+}
+.content section#l3 .happy {
+    display: none;
+    background: url("../images/face.gif") 0 0 no-repeat;
+    height: 190px;
+    left: 50%;
+    margin: -20px 0 0 -95px;
+    position: absolute;
+    top: 50%;
+    width: 190px
+}
