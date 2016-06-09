@@ -3,7 +3,8 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    width: 100%
+    width: 100%;
+    background: #000;
 }
 body {
     -webkit-touch-callout: none;
@@ -44,28 +45,29 @@ body {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0)
 }
-.content section {
+.content .layer {
     height: 100%;
     position: absolute;
     width: 100%
 }
-.content section#l1 {
-    background: url("../images/invite-1.png") 0 0 no-repeat;
+.content #l1 {
+    /*background: url("../images/invite-1.png") 0 0 no-repeat;*/
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0)
 }
-.content section#l2 {
-    background: url("../images/invite-2.png") 0 0 no-repeat;
+.content #l2 {
+    /*background: url("../images/invite-2.png") 0 0 no-repeat;*/
     -webkit-transform: translate3d(0, 0, -1000px);
     transform: translate3d(0, 0, -1000px)
 }
-.content section#l3 {
-    background: url("../images/invite-3.png") 0 0 no-repeat;
+.content #l3 {
+    /*background: url("../images/invite-3.png") 0 0 no-repeat;*/
     -webkit-transform: translate3d(0, 0, -2000px);
     transform: translate3d(0, 0, -2000px)
 }
-.content section#l3 .happy {
-    display: none;
+.content .rsvp {
+    /*display: none;*/
+    /*display: block;*/
     background: url("../images/face.gif") 0 0 no-repeat;
     height: 190px;
     left: 50%;
@@ -73,4 +75,8 @@ body {
     position: absolute;
     top: 50%;
     width: 190px
+}
+
+img {
+  max-width: 100%;
 }
