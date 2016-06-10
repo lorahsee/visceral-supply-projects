@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    background: #000;
+    background: #2F3034;
 }
 body {
     -webkit-touch-callout: none;
@@ -71,7 +71,7 @@ body {
     background: url("../images/face.gif") 0 0 no-repeat;
     height: 190px;
     left: 50%;
-    margin: -20px 0 0 -95px;
+    margin: -80px 0 0 -95px;
     position: absolute;
     top: 50%;
     width: 190px
